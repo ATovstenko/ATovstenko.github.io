@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit; /* Inherit text color from parent element */
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #3498db; /* Blue header background */
+    color: white; /* White text */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em; /* Increase heading size */
+    margin-bottom: 0; /* Remove bottom margin */
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #e0e0e0; /* Light gray background */
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center navigation links */
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  nav button {
+    background-color: #3498db; /* Blue button color */
+    color: white; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  nav button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px; /* Spacing between sections */
+    padding: 20px; /* Padding for content within sections */
+    border-radius: 5px; /* Rounded corners for sections */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  p {
+    line-height: 1.5; /* Increase line spacing for better readability */
+  }
+  
+  button#text-to-change {
+    background-color: transparent; /* Transparent button */
+    border: 1px solid #3498db; /* Blue border */
+    color: #3498db; /* Blue text */
+    padding: 5px 10px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  button#text-to-change:hover {
+    background-color: #e0e0e0; /* Light gray background on hover */
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #3498db; /* Blue footer background */
+    color: white; /* White text */
+    padding: 10px;
+    text-align: center;
+  }
+  
